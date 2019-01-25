@@ -1,0 +1,73 @@
+
+
+body {
+    padding: 0;
+    background-image: url("space.jpg");
+    color: rgb(87, 166, 212);
+    font-style: "Georgia",Times New Roman,Times,serif;
+}
+    
+.sidebar {
+    width: 20%;
+    position: fixed;
+    z-index: 1;
+    top: 100px;
+    left: 10px;
+    overflow-x: auto;
+    padding: 8px 0;
+  }    
+
+.sidebar li:hover {
+  color: yellow;
+}
+
+.container {
+    margin-left: 300px;
+    overflow: auto;
+    size: 1024px;
+}
+
+h1 {
+    font-size: 28px;
+    text-align: center;
+    border-radius: 20px;
+    border: 5px solid rgb(87, 166, 212);
+    margin: 10px;
+    padding: 20px;
+    }
+
+h2 {
+    font-size: 24px;
+    margin-left: 10px;
+ }
+
+ #main-bio {
+    float: left;
+    width: 60%;
+    border-radius: 20px;
+    border: 5px solid rgb(87, 166, 212);
+}
+
+ #bio-image {
+    float: left;
+    margin: 5px;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+   }
+
+#interests {
+    margin: 0;
+    float: left;
+    width: 30%;
+    margin: 5px;
+    border-radius: 20px;
+    border: 5px solid rgb(87, 166, 212);
+   }
+
+#contact-info {
+    text-align: center;
+    margin: 5px;
+    border-radius: 20px;
+    border: 5px solid rgb(87, 166, 212);
+}
